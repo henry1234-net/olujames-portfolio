@@ -1,4 +1,3 @@
-// pages/index.tsx or pages/index.jsx (depending on setup)
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
 import { Typewriter } from 'react-simple-typewriter';
