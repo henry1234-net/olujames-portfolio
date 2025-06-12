@@ -37,7 +37,7 @@ export default function Home() {
             transition={{ duration: 0.8 }}
             className="text-4xl font-bold mb-4"
           >
-            Hi, I'm Olujames Taiwo Henry
+            Hi, I&apos;m Olujames Taiwo Henry
           </motion.h2>
 
           <h3 className="text-2xl">
