@@ -1,5 +1,6 @@
 "use client"
 import Head from 'next/head';
+import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import { motion } from 'framer-motion';
@@ -63,15 +64,33 @@ export default function Home() {
 
           <Swiper spaceBetween={30} slidesPerView={1} loop>
             <SwiperSlide>
-              <img src="/projects/school-website.png" alt="School Website" className="rounded-xl shadow-lg" />
+              <Image
+                src="/projects/school-website.png"
+                alt="School Website"
+                width={500}
+                height={300}
+                className="rounded-xl shadow-lg"
+              />
               <p className="mt-2">Samara Montessori & High School Website</p>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/projects/rental-listing.png" alt="Rental Listing" className="rounded-xl shadow-lg" />
+              <Image
+                src="/projects/rental-listing.png"
+                alt="Rental Listing"
+                width={500}
+                height={300}
+                className="rounded-xl shadow-lg"
+              />
               <p className="mt-2">Rental Listings Website (React + Tailwind)</p>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/projects/voting-platform.png" alt="Voting Platform" className="rounded-xl shadow-lg" />
+              <Image
+                src="/projects/voting-platform.png"
+                alt="Voting Platform"
+                width={500}
+                height={300}
+                className="rounded-xl shadow-lg"
+              />
               <p className="mt-2">Online Voting Platform (HTML, CSS, JS)</p>
             </SwiperSlide>
           </Swiper>
