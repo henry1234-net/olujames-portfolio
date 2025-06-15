@@ -6,7 +6,10 @@ import { Typewriter } from 'react-simple-typewriter';
 import { motion } from 'framer-motion';
 import { Github, Mail } from 'lucide-react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 export default function Home() {
   const [theme, setTheme] = useState('light');
@@ -62,38 +65,46 @@ export default function Home() {
         <section className="p-10 bg-gray-100 dark:bg-gray-800">
           <h2 className="text-3xl font-bold text-center mb-6">Projects</h2>
 
-          <Swiper spaceBetween={30} slidesPerView={1} loop>
-            <SwiperSlide>
-              <Image
-                src="/images/smhs.jpg"
-                alt="School Website"
-                width={500}
-                height={300}
-                className="rounded-xl shadow-lg"
-              />
-              <p className="mt-2">Samara Montessori & High School Website</p>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                src="/projects/rental-listing.png"
-                alt="Rental Listing"
-                width={500}
-                height={300}
-                className="rounded-xl shadow-lg"
-              />
-              <p className="mt-2">Rental Listings Website (React + Tailwind)</p>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                src="/projects/voting-platform.png"
-                alt="Voting Platform"
-                width={500}
-                height={300}
-                className="rounded-xl shadow-lg"
-              />
-              <p className="mt-2">Online Voting Platform (HTML, CSS, JS)</p>
-            </SwiperSlide>
-          </Swiper>
+           <Swiper
+              modules={[Autoplay, Navigation, Pagination]}
+              spaceBetween={30}
+              slidesPerView={1}
+              loop={true}
+              navigation
+              pagination={{ clickable: true }}
+              autoplay={{ delay: 3000 }}
+            >
+              <SwiperSlide>
+                <Image
+                  src="/images/smhs.jpg"
+                  alt="School Website"
+                  width={500}
+                  height={300}
+                  className="rounded-xl shadow-lg"
+                />
+                <p className="mt-2">Samara Montessori & High School Website</p>
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image
+                  src="/projects/rental-listing.png"
+                  alt="Rental Listing"
+                  width={500}
+                  height={300}
+                  className="rounded-xl shadow-lg"
+                />
+                <p className="mt-2">Rental Listings Website (React + Tailwind)</p>
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image
+                  src="/projects/voting-platform.png"
+                  alt="Voting Platform"
+                  width={500}
+                  height={300}
+                  className="rounded-xl shadow-lg"
+                />
+                <p className="mt-2">Online Voting Platform (HTML, CSS, JS)</p>
+              </SwiperSlide>
+            </Swiper>
         </section>
 
         <section className="p-10">
