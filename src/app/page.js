@@ -79,7 +79,8 @@ export default function Home() {
                   <Image
                     src="/images/smhs.jpg"
                     alt="School Website"
-                    fill
+                    width={1920}
+                    height={1080}
                     className="object-contain rounded-xl shadow-lg"
                   />
                 </div>
@@ -90,7 +91,8 @@ export default function Home() {
                   <Image
                     src="/images/smhs.jpg"
                     alt="School Website"
-                    fill
+                    width={1920}
+                    height={1080}
                     className="object-contain rounded-xl shadow-lg"
                   />
                 </div>
@@ -101,7 +103,8 @@ export default function Home() {
                   <Image
                     src="/images/rahab.png"
                     alt="Voting Website"
-                    fill
+                    width={1920}
+                    height={1080}
                     className="object-contain rounded-xl shadow-lg"
                   />
                 </div>
