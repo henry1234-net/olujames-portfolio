@@ -79,7 +79,7 @@ export default function Home() {
                   src="/images/smhs.jpg"
                   alt="School Website"
                   fill
-                  className="rounded-xl shadow-lg w-full h-[300]"
+                  className="rounded-xl shadow-lg w-full h-[1000]"
                 />
                 <p className="mt-2">Samara Montessori & High School Website</p>
               </SwiperSlide>
@@ -88,7 +88,7 @@ export default function Home() {
                   src="/projects/rental-listing.png"
                   alt="Rental Listing"
                   fill
-                  className="rounded-xl shadow-lg w-full h-[300]"
+                  className="rounded-xl shadow-lg w-full h-[1000]"
                 />
                 <p className="mt-2">Rental Listings Website (React + Tailwind)</p>
               </SwiperSlide>
@@ -97,7 +97,7 @@ export default function Home() {
                   src="/projects/voting-platform.png"
                   alt="Voting Platform"
                   fill
-                  className="rounded-xl shadow-lg w-full h-[300]"
+                  className="rounded-xl shadow-lg w-full h-[1000]"
                 />
                 <p className="mt-2">Online Voting Platform (HTML, CSS, JS)</p>
               </SwiperSlide>
