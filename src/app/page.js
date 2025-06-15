@@ -107,6 +107,17 @@ export default function Home() {
                 </div>
                 <p className="mt-2">Online Voting Platform (HTML, CSS, JS)</p>
               </SwiperSlide>
+              <SwiperSlide>
+                <div className="relative w-full h-[500px]">
+                  <Image
+                    src="/images/turfind.png"
+                    alt="Real Estate Website"
+                    fill
+                    className="object-cover rounded-xl shadow-lg"
+                  />
+                </div>
+                <p className="mt-2">Real Estate Login and Signuo Page [frontend] (HTML, CSS, JS)</p>
+              </SwiperSlide>
             </Swiper>
         </section>
 
