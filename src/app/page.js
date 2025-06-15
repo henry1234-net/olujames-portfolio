@@ -75,30 +75,36 @@ export default function Home() {
               autoplay={{ delay: 3000 }}
             >
               <SwiperSlide>
-                <Image
-                  src="/images/smhs.jpg"
-                  alt="School Website"
-                  fill
-                  className="rounded-xl shadow-lg w-full h-[1000]"
-                />
+                <div className="relative w-full h-[300px]">
+                  <Image
+                    src="/images/smhs.jpg"
+                    alt="School Website"
+                    fill
+                    className="object-cover rounded-xl shadow-lg"
+                  />
+                </div>
                 <p className="mt-2">Samara Montessori & High School Website</p>
               </SwiperSlide>
               <SwiperSlide>
-                <Image
-                  src="/projects/rental-listing.png"
-                  alt="Rental Listing"
-                  fill
-                  className="rounded-xl shadow-lg w-full h-[1000]"
-                />
+                <div className="relative w-full h-[300px]">
+                  <Image
+                    src="/images/smhs.jpg"
+                    alt="School Website"
+                    fill
+                    className="object-cover rounded-xl shadow-lg"
+                  />
+                </div>
                 <p className="mt-2">Rental Listings Website (React + Tailwind)</p>
               </SwiperSlide>
               <SwiperSlide>
-                <Image
-                  src="/projects/voting-platform.png"
-                  alt="Voting Platform"
-                  fill
-                  className="rounded-xl shadow-lg w-full h-[1000]"
-                />
+                <div className="relative w-full h-[300px]">
+                  <Image
+                    src="/images/smhs.jpg"
+                    alt="School Website"
+                    fill
+                    className="object-cover rounded-xl shadow-lg"
+                  />
+                </div>
                 <p className="mt-2">Online Voting Platform (HTML, CSS, JS)</p>
               </SwiperSlide>
             </Swiper>
