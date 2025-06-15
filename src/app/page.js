@@ -75,7 +75,7 @@ export default function Home() {
               autoplay={{ delay: 3000 }}
             >
               <SwiperSlide>
-                <div className="relative w-full h-[300px]">
+                <div className="relative w-full h-[500px]">
                   <Image
                     src="/images/smhs.jpg"
                     alt="School Website"
@@ -86,7 +86,7 @@ export default function Home() {
                 <p className="mt-2">Samara Montessori & High School Website</p>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="relative w-full h-[300px]">
+                <div className="relative w-full h-[500px]">
                   <Image
                     src="/images/smhs.jpg"
                     alt="School Website"
@@ -97,7 +97,7 @@ export default function Home() {
                 <p className="mt-2">Rental Listings Website (React + Tailwind)</p>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="relative w-full h-[300px]">
+                <div className="relative w-full h-[500px]">
                   <Image
                     src="/images/rahab.png"
                     alt="Voting Website"
