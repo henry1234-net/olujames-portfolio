@@ -65,7 +65,7 @@ export default function Home() {
           <Swiper spaceBetween={30} slidesPerView={1} loop>
             <SwiperSlide>
               <Image
-                src="/projects/images/smhs.jpg"
+                src="/images/smhs.jpg"
                 alt="School Website"
                 width={500}
                 height={300}
