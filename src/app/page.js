@@ -80,7 +80,7 @@ export default function Home() {
                     src="/images/smhs.jpg"
                     alt="School Website"
                     fill
-                    className="object-cover rounded-xl shadow-lg"
+                    className="object-contain rounded-xl shadow-lg"
                   />
                 </div>
                 <p className="mt-2">Samara Montessori & High School Website</p>
@@ -91,7 +91,7 @@ export default function Home() {
                     src="/images/smhs.jpg"
                     alt="School Website"
                     fill
-                    className="object-cover rounded-xl shadow-lg"
+                    className="object-contain rounded-xl shadow-lg"
                   />
                 </div>
                 <p className="mt-2">Rental Listings Website (React + Tailwind)</p>
@@ -102,7 +102,7 @@ export default function Home() {
                     src="/images/rahab.png"
                     alt="Voting Website"
                     fill
-                    className="object-cover rounded-xl shadow-lg"
+                    className="object-contain rounded-xl shadow-lg"
                   />
                 </div>
                 <p className="mt-2">Online Voting Platform (HTML, CSS, JS)</p>
