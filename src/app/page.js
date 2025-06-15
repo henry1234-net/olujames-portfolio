@@ -88,8 +88,8 @@ export default function Home() {
               <SwiperSlide>
                 <div className="relative w-full h-[500px]">
                   <Image
-                    src="/images/smhs.jpg"
-                    alt="School Website"
+                    src="/images/rental.png"
+                    alt="Rental Website"
                     fill
                     className="object-cover rounded-xl shadow-lg"
                   />
